@@ -19,7 +19,7 @@ const LinkItem: React.FC<LinkItemProps> = ({ link }) => {
         </a>
       </td>
       <td className="p-4 border">{link.description}</td>
-      <td className="p-4 border text-center">
+      <td className="p-4 border">
         <span className="bg-blue-200 text-blue-700 rounded px-3 py-1 text-xs whitespace-nowrap">
           {link.category}
         </span>

@@ -26,8 +26,8 @@ function App() {
             </tr>
           </thead>
           <tbody>
-            {links.map(link => (
-              <LinkItem key={link.id} link={link} />
+            {links.map((link, index) => (
+              <LinkItem key={index} link={link} />
             ))}
           </tbody>
         </table>

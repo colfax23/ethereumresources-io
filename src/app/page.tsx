@@ -16,7 +16,7 @@ function App() {
         </div>
       </header>
 
-      <div className="py-4 md:py-8 mx-auto max-w-md md:max-w-2xl xl:max-w-4xl">
+      <div className="p-4 md:p-8 mx-auto max-w-md md:max-w-2xl xl:max-w-4xl">
         <table className="border-collapse table-auto">
           <thead>
             <tr className="bg-white border-b dark:bg-gray-400 dark:border-gray-700">

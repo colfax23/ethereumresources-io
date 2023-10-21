@@ -9,15 +9,15 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-evenly p-12">
-      <header className="py-8">
+    <main className="py-8 flex min-h-screen flex-col items-center justify-evenly ">
+      <header className="py-4 md:py-8">
         <div className="container mx-auto px-4">
-          <h1 className="text-2xl text-4xl font-bold">Ethereum Resources</h1>
+          <h1 className="text-2xl md:text-4xl font-bold">Ethereum Resources</h1>
         </div>
       </header>
 
-      <div className="py-8 mx-auto max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl xl:max-w-4xl">
-        <table className="min-w-full border-collapse">
+      <div className="py-4 md:py-8 mx-auto max-w-md md:max-w-2xl xl:max-w-4xl">
+        <table className="border-collapse table-auto">
           <thead>
             <tr className="bg-white border-b dark:bg-gray-400 dark:border-gray-700">
               <th className="p-4 border text-left">Website</th>

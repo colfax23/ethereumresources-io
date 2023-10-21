@@ -24,31 +24,31 @@ export const links: Link[] = [
     title: 'Ethereum Protocol YouTube Channel',
     description: 'Location of ACD and other protocol livestreams.',
     url: 'https://www.youtube.com/@EthereumProtocol',
-    category: 'Research & Development'
+    category: 'R&D'
   },
   {
     title: 'EIPs',
     description: 'Ethereum Improvement Proposals',
     url: 'https://eips.ethereum.org/',
-    category: 'Research & Development'
+    category: 'R&D'
   },
   {
     title: 'ETH Research',
     description: 'Ethereum Research discussions.',
     url: 'https://ethresear.ch/',
-    category: 'Research & Development'
+    category: 'R&D'
   },
   {
     title: 'Ethereum Magicians forum',
     description: 'Discussions about EIPs and other technical aspects of Ethereum.',
     url: 'https://ethereum-magicians.org/',
-    category: 'Research & Development'
+    category: 'R&D'
   },
   {
     title: 'ETH R&D discord server',
     description: 'A place to collaborate on the development of the Ethereum protocol.',
     url: 'https://discord.com/invite/qGpsxSA',
-    category: 'Research & Development'
+    category: 'R&D'
   },
   {
     title: 'Ethereum Validator Queue',

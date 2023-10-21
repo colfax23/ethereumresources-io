@@ -9,7 +9,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
   return (
-    <main className="py-8 flex min-h-screen flex-col items-center justify-evenly ">
+    <main className="py-8 flex min-h-screen min-w-fit flex-col items-center justify-evenly">
       <header className="py-4 md:py-8">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-bold">Ethereum Resources</h1>

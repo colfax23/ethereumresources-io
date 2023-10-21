@@ -33,7 +33,7 @@ function App() {
         </table>
       </div>
 
-      <div className="py-8">
+      <div className="py-4 px-4 md:py-8 text-center">
         Is something missing or wrong?  Drop me a PR or Issue on
         <a 
           href="https://github.com/colfax23/ethereumresources-io" 
